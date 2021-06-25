@@ -1,0 +1,103 @@
+
+.hero-section{
+    padding-top: 7%; 
+    padding-bottom: 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-section div{
+    width: 50%;
+}
+
+img{
+    width: 45%;
+}
+
+.secondary-section{
+    background-color: #6f42c1;
+}
+
+.newsletter{
+    background-color: #6f42c1;
+    margin: auto;
+    width: 100%;
+}
+
+.newsletter-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-div .input-group{
+    width: 45%;
+}
+
+
+@media(max-width: 1000px){
+    .hero-section{
+        padding-bottom: 10%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-section img{
+        padding-top: 20px;
+        margin-bottom: 5px;
+        width: 70%;
+    }
+    .newsletter-div{
+        flex-direction: column;
+        text-align: center;
+    }
+    .newsletter-div .input-group{
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 640px){
+    .hero-section{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+}
+
+/*services*/
+
+#services .card{
+    background-color: #6f42c1;
+}
+
+.card-img{
+    height: 130px;
+
+}
+
+/*How it works*/
+#howitworks .card{
+    border: none;
+}
+
+#howitworks .card-body i{
+    color: #6f42c1;
+    font-size: 40px;
+}
+
+/*Testimonials*/
+.testimonial-box{
+    background-color: #6f42c1;
+}
+
+.testimonial-box .card{
+    background-color: transparent;
+    border: none;
+}
